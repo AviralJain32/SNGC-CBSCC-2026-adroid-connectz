@@ -17,7 +17,7 @@ export function AuroraBackgroundDemo() {
         }}
         className="relative flex flex-col items-center justify-center px-6 text-center gap-6"
       >
-        <h1 className="text-4xl md:text-7xl font-bold dark:text-white">
+        <h1 className="text-4xl md:text-7xl font-extrabold dark:text-white">
           SNGC-CBSCC 2026
         </h1>
 
