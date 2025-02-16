@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import React from "react";
 import { AuroraBackgroundDemo } from "./AroraBackground";
 import Image from "next/image";
- 
+ import CardiffLogo from "../../public/Images/Cardiff-Met-Logo.jpg"
 
 export default function Home() {
   return (
@@ -27,7 +27,7 @@ export default function Home() {
       <section className="py-16 bg-gradient-to-l from-blue-100 to-blue-200 text-center text-gray-900 rounded-xl shadow-xl mt-10">
         <h2 className="text-4xl font-bold">SNGC-CBSCC Academic Partners</h2>
         <div className="flex flex-wrap justify-center mt-6 space-x-8">
-          <Image src="/images/Cardiff-Met-Logo.jpg" alt="Cardiff Metropolitan University" width={270} height={200} className="rounded-lg drop-shadow-lg" />
+          <Image src={CardiffLogo} alt="Cardiff Metropolitan University" width={270} height={200} className="rounded-lg drop-shadow-lg" />
         </div>
       </section>
       
