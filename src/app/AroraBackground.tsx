@@ -22,7 +22,7 @@ export function AuroraBackgroundDemo() {
         </h1>
 
         <h2 className="text-lg md:text-3xl font-semibold  max-w-5xl leading-relaxed">
-          First IEEE Conference on Synergies in Next Generation CPS: <br />
+          First Conference on Synergies in Next Generation CPS: <br />
           Collaboration Between Sensing, Control, and Computation
         </h2>
 
